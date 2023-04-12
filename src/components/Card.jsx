@@ -14,9 +14,6 @@ function Card(props) {
         <Contact detail={props.tel} />
         <Contact detail={props.email} />
         {/* "Contact" from above is a component, "detail" = property  */}
-        {/* <Contact information={props.tel} />
-        <Contact information={props.email} /> */}
-        {/* <p className="info">{props.information}</p>; */}
       </div>
     </div>
   );
